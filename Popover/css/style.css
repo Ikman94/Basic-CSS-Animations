@@ -1,0 +1,123 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(25, 43, 84);
+}
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.popover {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  display: flex;
+  background-color: rgb(25, 43, 84);
+  border: none;
+}
+.green {
+  color: rgb(102, 224, 186);
+}
+.blue {
+  color: rgb(78, 148, 207);
+}
+.violet {
+  color: rgb(172, 87, 250);
+}
+.orange {
+  color: rgb(243, 155, 49);
+}
+.buttons button {
+  background-color: rgb(25, 43, 84);
+  border: none;
+  /* width:20% */
+}
+.arrowRight {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 20px solid rgb(172, 87, 250);
+  border-bottom: 10px solid transparent;
+}
+.arrowDown {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid rgb(243, 155, 49);
+}
+.arrowLeft {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 20px solid rgb(102, 224, 186);
+  border-bottom: 10px solid transparent;
+}
+.arrowUp {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid rgb(78, 148, 207);
+}
+.rightButton {
+  position: absolute;
+  top: 43%;
+  left: 64%;
+}
+.downButton {
+  position: absolute;
+  top: 54%;
+  left: 48.5%;
+}
+.leftButton {
+  position: absolute;
+  top: 43%;
+  left: 32%;
+}
+.upButton {
+  position: absolute;
+  top: 32%;
+  left: 48.5%;
+}
+.card {
+  width: 25rem;
+}
+.nameCard {
+  margin-left: 22rem;
+  margin-top: 4rem;
+}
+.nameCard p {
+  color: rgb(78, 148, 207);
+  font-size: 30px;
+}
+.aboutCard {
+  position: absolute;
+  top: 20%;
+  left: 69%;
+  color: rgb(172, 87, 250);
+}
+.aboutCard li {
+  font-size: 14px;
+  color: black;
+}
+.futureCard {
+  position: absolute;
+  top: 62%;
+  left: 36%;
+  color: rgb(243, 155, 49);
+}
+.contactCard {
+  position: absolute;
+  top: 27%;
+  left: 3%;
+  color: rgb(102, 224, 186);
+}
+hr.new1 {
+  border-top: 1px solid rgb(102, 224, 186);
+}
+.goodBye {
+  background-color: rgb(102, 224, 186);
+  width: 40%;
+  border-radius: 3px;
+  margin-left: 6rem;
+}
